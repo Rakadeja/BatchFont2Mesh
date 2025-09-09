@@ -1,0 +1,61 @@
+# Blender
+.blend
+.blend1
+.blend2
+.blend3
+.blend4
+.blend5
+.blend6
+.blend7
+.blend8
+.blend9
+.crash.txt
+.factorystartup.blend
+.bfont
+.bfont.py
+.bfont.pyc
+.bfont.pyo
+.bfont.pyx
+.bfont.pyd
+.bfont.so
+.bfont.dll
+.bfont.dylib
+.bfont.zip
+.bfont.tar.gz
+.bfont.tgz
+.bfont.rar
+.bfont.7z
+.bfont.exe
+.bfont.msi
+.bfont.deb
+.bfont.rpm
+.bfont.AppImage
+.bfont.dmg
+.bfont.pkg
+.bfont.snap
+.bfont.flatpak
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.dylib
+
+# IDEs
+# .vscode/ We actually do want to share that 'tasks.json,' whoops.
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.zip
+*.7z
