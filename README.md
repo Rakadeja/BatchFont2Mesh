@@ -71,8 +71,8 @@ I may have gone a little overboard, but I wanted '3d Spyro font' and *then* some
 
 Let's be real, this is a work in progress. Here's a list of features that are in the UI but ain't quite there yet.
 
-*   **Post-Processing Toggles:** All of the toggles in the "Post-Processing Options" section (`Mark Sharp`, `Vertex Groups`, `Multi-Material`, `Vertex Colors`) are currently UI placeholders and **do not work yet.** They are the top priority for the next development phase. (See Issue [#TBD](https://github.com/Rakadeja/BatchFont2Mesh/issues))
-*   **Live Transform Preview:** The `Translation` and `Rotation` sliders don't update the live preview object in real-time. The values *are* saved and will be applied correctly when you click `Generate Meshes`, but you won't see the preview object move. (See Issue [#TBD](https://github.com/Rakadeja/BatchFont2Mesh/issues))
+*   **Post-Processing Toggles:** All of the toggles in the "Post-Processing Options" section (`Mark Sharp`, `Vertex Groups`, `Multi-Material`, `Vertex Colors`) are currently UI placeholders and **do not work yet.** They are the top priority for the next development phase. (See Issue [#1](https://github.com/Rakadeja/BatchFont2Mesh/issues/1))
+*   **Live Transform Preview:** The `Translation` and `Rotation` sliders don't update the live preview object in real-time. The values *are* saved and will be applied correctly when you click `Generate Meshes`, but you won't see the preview object move. (See Issue [#5](https://github.com/Rakadeja/BatchFont2Mesh/issues/5))
 *   **Material Slots:** Because `Multi-Material` post-processing is not yet implemented, the `Bevel Material` slot is also not currently functional.
 *   **Merge Distance UI:** The input field for `Merge Distance` is too small and truncates the default value. It still works correctly (`0.0001` is the default), it just looks weird.
 
@@ -97,6 +97,9 @@ This is just the beginning. The Vibe is strong, but the Feature Creep is stronge
 
 1.  **Get the Goods:** Head to the **Releases** page on this GitHub repo and download the latest `BatchFont2Mesh.zip` file.
 2.  **DON'T UNZIP IT:** For real. Blender handles that part.
+   
+   <img width="397" height="276" alt="image" src="https://github.com/user-attachments/assets/ad7719d2-bdf4-4401-b017-82881c8bffb3" />
+
 3.  **Open the System Console (👀 IMPORTANT!):**
     *   Before you install, go to `Window -> Toggle System Console` in Blender's top menu.
     *   Keep this console window open! It's where our addon will print its installation progress and any errors. This is your lifeline if something goes wrong.
