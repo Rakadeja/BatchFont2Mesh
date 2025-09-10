@@ -67,32 +67,6 @@ I may have gone a little overboard, but I wanted '3d Spyro font' and *then* some
 
 ---
 
-## ⚠️ Known Issues & Wack Features ⚠️
-
-Let's be real, this is a work in progress. Here's a list of features that are in the UI but ain't quite there yet.
-
-*   **Post-Processing Toggles:** All of the toggles in the "Post-Processing Options" section (`Mark Sharp`, `Vertex Groups`, `Multi-Material`, `Vertex Colors`) are currently UI placeholders and **do not work yet.** They are the top priority for the next development phase. (See Issue [#1](https://github.com/Rakadeja/BatchFont2Mesh/issues/1))
-*   **Live Transform Preview:** The `Translation` and `Rotation` sliders don't update the live preview object in real-time. The values *are* saved and will be applied correctly when you click `Generate Meshes`, but you won't see the preview object move. (See Issue [#5](https://github.com/Rakadeja/BatchFont2Mesh/issues/5))
-*   **Material Slots:** Because `Multi-Material` post-processing is not yet implemented, the `Bevel Material` slot is also not currently functional.
-*   **Merge Distance UI:** The input field for `Merge Distance` is too small and truncates the default value. It still works correctly (`0.0001` is the default), it just looks weird.
-
----
-
-## 🚀 Roadmap / Future Ideas 🚀
-
-This is just the beginning. The Vibe is strong, but the Feature Creep is stronger.
-
-*   **Implement Post-Processing:** Actually make the toggles work!
-*   **Granular Character Selection:** An interface to pick and choose characters.
-*   **Settings Presets:** The ability to save and load your entire configuration.
-*   **Advanced UV Unwrapping:** Options to automatically run a Smart UV Project.
-*   **Custom Naming Patterns:** User-definable patterns like `{font}_{char}_{ascii}`.
-*   **Adaptive Bevel Scaling (The Holy Grail):** A smart algorithm to prevent small details from getting obliterated by big bevels.
-*   **More Post-Processing Mayhem:** Think Decimate, Remesh, or other modifiers.
-*   **Verbose Logging:** An option to output a detailed log file for debugging.
-
----
-
 ## Installation (The Ritual - Now With More Steps!)
 
 1.  **Get the Goods:** Head to the [Releases](https://github.com/Rakadeja/BatchFont2Mesh/releases/) page on this GitHub repo and download the latest [BatchFont2Mesh.zip](https://github.com/Rakadeja/BatchFont2Mesh/releases/download/v1.3.0-alpha/BatchFont2Mesh.zip) file.
@@ -141,6 +115,32 @@ Once the preview looks exactly how you want it...
 
 1.  **Generate:** Hit the big `Generate Meshes` button at the bottom.
 2.  **What Happens:** A progress bar will appear as the addon loops through every character, creating a fully processed mesh for each one and placing it in the "Processed" collection.
+
+---
+
+## ⚠️ Known Issues & Wack Features ⚠️
+
+Let's be real, this is a work in progress. Here's a list of features that are in the UI but ain't quite there yet.
+
+*   **Post-Processing Toggles:** All of the toggles in the "Post-Processing Options" section (`Mark Sharp`, `Vertex Groups`, `Multi-Material`, `Vertex Colors`) are currently UI placeholders and **do not work yet.** They are the top priority for the next development phase. (See Issue [#1](https://github.com/Rakadeja/BatchFont2Mesh/issues/1))
+*   **Live Transform Preview:** The `Translation` and `Rotation` sliders don't update the live preview object in real-time. The values *are* saved and will be applied correctly when you click `Generate Meshes`, but you won't see the preview object move. (See Issue [#5](https://github.com/Rakadeja/BatchFont2Mesh/issues/5))
+*   **Material Slots:** Because `Multi-Material` post-processing is not yet implemented, the `Bevel Material` slot is also not currently functional.
+*   **Merge Distance UI:** The input field for `Merge Distance` is too small and truncates the default value. It still works correctly (`0.0001` is the default), it just looks weird.
+
+---
+
+## 🚀 Roadmap / Future Ideas 🚀
+
+This is just the beginning. The Vibe is strong, but the Feature Creep is stronger.
+
+*   **Implement Post-Processing:** Actually make the toggles work!
+*   **Granular Character Selection:** An interface to pick and choose characters.
+*   **Settings Presets:** The ability to save and load your entire configuration.
+*   **Advanced UV Unwrapping:** Options to automatically run a Smart UV Project.
+*   **Custom Naming Patterns:** User-definable patterns like `{font}_{char}_{ascii}`.
+*   **Adaptive Bevel Scaling (The Holy Grail):** A smart algorithm to prevent small details from getting obliterated by big bevels.
+*   **More Post-Processing Mayhem:** Think Decimate, Remesh, or other modifiers.
+*   **Verbose Logging:** An option to output a detailed log file for debugging.
 
 ---
 
