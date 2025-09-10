@@ -95,7 +95,7 @@ This is just the beginning. The Vibe is strong, but the Feature Creep is stronge
 
 ## Installation (The Ritual - Now With More Steps!)
 
-1.  **Get the Goods:** Head to the **Releases** page on this GitHub repo and download the latest `BatchFont2Mesh.zip` file.
+1.  **Get the Goods:** Head to the [Releases](https://github.com/Rakadeja/BatchFont2Mesh/releases/) page on this GitHub repo and download the latest [BatchFont2Mesh.zip](https://github.com/Rakadeja/BatchFont2Mesh/releases/download/v1.3.0-alpha/BatchFont2Mesh.zip) file.
 2.  **DON'T UNZIP IT:** For real. Blender handles that part.
    
    <img width="397" height="276" alt="image" src="https://github.com/user-attachments/assets/ad7719d2-bdf4-4401-b017-82881c8bffb3" />
