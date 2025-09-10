@@ -4,7 +4,8 @@
 <!-- Badges cringelord area -->
   <img src="https://img.shields.io/badge/Blender-4.2%2B-F5792A?logo=blender" alt="Blender Version"/>
   <img src="https://img.shields.io/badge/Python-3.13-3776AB?logo=python" alt="Python Version"/>
-  <img src="https://img.shields.io/badge/Version-1.3.0-green" alt="Version 1.3.0"/>
+<img src="https://img.shields.io/badge/Status-Alpha-red" alt="Status: Alpha v1.3.0"/>
+ <img src="https://img.shields.io/badge/Made%20in-VS%20Code-007ACC?logo=visualstudiocode" alt="Made in VS Code"/>
   <img src="https://img.shields.io/badge/Co--Developed%20with-Gemini%202.5%20Pro-4285F4?logo=google" alt="Co-developed with Gemini 2.5 Pro"/>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-blue" alt="License: MIT"/>
